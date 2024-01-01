@@ -12,6 +12,9 @@
 ### Mô Tả
 - Client gửi đến server một bản tin 5 byte, trong đó có cmd là DET_STATE_WORK.
 - Client nhận bản tin 21Mb từ server.
-- Trong lúc nhận bản tin 21Mb, client chỉ nhận 15Mb và thoát khỏi chương trình.      
+- Trong lúc nhận bản tin 21Mb, client chỉ nhận 15Mb và thoát khỏi chương trình.
+## Bài Test 4: baitest4.cpp
+### Mô Tả
+- Client gửi đến server 4 bản tin 5 byte, trong đó có 3 bản tin có header không hợp lệ và 1 bản tin hợp lệ
 
 
