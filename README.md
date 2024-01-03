@@ -16,5 +16,15 @@
 ## Bài Test 4: baitest4.cpp
 ### Mô Tả
 - Client gửi đến server 4 bản tin 5 byte, trong đó có 3 bản tin có header không hợp lệ và 1 bản tin hợp lệ
+## Bài Test 5:
+### Mô Tả
+- Khởi chạy server, server đang đợi kết nối từ client
+- Sau đó ta chạy nhiều client một lúc
+## Bài Test 6:
+### Mô Tả
+- Client gửi đến server một bản tin 5 byte, trong đó có cmd là DET_STATE_WORK.
+- Ở client tạo một vòng lặp while true, để gửi yêu cầu và nhận liên tục từ server
+- Test chương trình trong khoảng thời gian dài (24 giờ).
+
 
 
